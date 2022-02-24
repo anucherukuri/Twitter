@@ -1,0 +1,37 @@
+#bookmarks {
+  display: flex;
+  justify-content: space-between;
+}
+#bookmarks > div:nth-of-type(2) {
+  margin: 0px 10px;
+  width: 55vw;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #e6ecf0;
+}
+#bookmarks > div:nth-of-type(2) p {
+  margin: 0px;
+}
+#bookmarks #header p:first-of-type {
+  font-weight: bold;
+  font-size: 20px;
+}
+#bookmarks #header p:nth-of-type(2) {
+  color: #657786;
+}
+#bookmarks #content {
+  padding: 25px;
+  text-align: center;
+}
+#bookmarks #content p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+}
+#bookmarks #content p:nth-of-type(2) {
+  color: #657786;
+}
+@media only screen and (max-width: 998px) {
+  #bookmarks > div:nth-of-type(2) {
+    width: 80vw !important;
+  }
+}

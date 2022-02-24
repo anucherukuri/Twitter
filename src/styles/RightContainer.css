@@ -1,0 +1,153 @@
+#rightBar {
+  width: 28vw;
+  min-height: 80vh;
+}
+#rightBar #search {
+  margin-top: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  position: relative;
+  border-radius: 40px;
+  background-color: #e6ecf0;
+}
+#rightBar #search svg {
+  font-size: 28px;
+  color: #657786;
+}
+#rightBar #search input {
+  border: none;
+  background-color: transparent;
+  width: 88%;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+}
+#rightBar #search input:focus {
+  outline: none;
+}
+#rightBar #trending {
+  margin-top: 20px;
+  padding: 10px 15px;
+  width: 100%;
+
+  border-radius: 20px;
+  background-color: #f5f8fa;
+}
+#rightBar #trending #header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0px 5px;
+}
+#rightBar #trending #header svg {
+  font-size: 22px;
+  color: #1da1f2;
+  margin: 10px 5px;
+}
+#rightBar #trending #header p {
+  margin: "0px";
+  font-size: 24px;
+  font-weight: 700;
+}
+#rightBar #trending #trendingHastag p {
+  margin: 0;
+}
+#rightBar #trending #trendingHastag {
+  padding: 10px;
+}
+#rightBar #trending #trendingHastag p {
+  margin-bottom: 3px;
+}
+#rightBar #trending #trendingHastag p:nth-of-type(2) {
+  margin-bottom: 7px;
+  font-size: 16px;
+  font-weight: 700;
+}
+#rightBar #trending #trendingHastag p:first-of-type {
+  font-size: 14px;
+  color: #657786;
+}
+#rightBar #trending #trendingHastag p:nth-of-type(3) {
+  font-size: 14px;
+  color: #657786;
+}
+#rightBar #trending #trendingHastag:hover {
+  background-color: #eaeef1;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+#rightBar #trending #follow > div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: transparent;
+}
+#rightBar #trending #follow p {
+  margin: 0px;
+}
+#rightBar #trending #follow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#rightBar #trending #follow > div {
+  display: flex;
+}
+#rightBar #trending #follow > div > div {
+  padding: 0px 10px;
+}
+#rightBar #trending #follow > div > div p:first-of-type {
+  font-size: 18px;
+  font-weight: 600;
+}
+#rightBar #trending #follow > div > div p:nth-of-type(2) {
+  font-size: 16px;
+  color: #8c9aa5;
+}
+#rightBar #trending #follow button {
+  width: 90px;
+  height: 40px;
+  color: #1da1f2;
+  font-weight: 650;
+  background-color: #f5f8fa;
+  border: 2px solid #1da1f2;
+  border-radius: 20px;
+  margin: auto 0px;
+}
+#rightBar #footer > div {
+  padding: 10px;
+}
+#rightBar #footer a {
+  margin: 0px 5px;
+  color: #8c9aa5;
+}
+#rightBar #footer a:hover {
+  text-decoration: none;
+  color: #657786;
+}
+#rightBar #searchDropdown {
+  margin-top: 2px;
+  position: absolute;
+  width: 28vw;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+}
+#rightBar #searchDropdown a {
+  text-decoration: none !important;
+  color: black !important;
+}
+#rightBar #searchDropdown p {
+  margin: 0px;
+  width: 100%;
+  height: 35px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 998px) {
+  #rightBar {
+    display: none !important;
+  }
+}

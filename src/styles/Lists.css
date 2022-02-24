@@ -1,0 +1,86 @@
+#lists {
+  display: flex;
+  justify-content: space-between;
+}
+#lists > div:nth-of-type(2) {
+  margin: 0px 10px;
+  width: 55vw;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #e6ecf0;
+}
+#lists > div:nth-of-type(2) p {
+  margin: 0px;
+}
+#lists #header {
+  display: flex;
+  justify-content: space-between;
+}
+#lists #header #name {
+  margin: 0px 0px;
+  display: flex;
+}
+#lists #header #name svg {
+  font-size: 30px;
+  margin: 10px 15px 10px 0px;
+}
+#lists #header #name div p:first-of-type {
+  font-weight: 650;
+  font-size: 20px;
+}
+#lists #header #name div p:nth-of-type(2) {
+  margin-top: -5px;
+  color: #657786;
+}
+#lists #header #icons {
+  margin: 10px 20px;
+  display: flex;
+}
+#lists #header #icons p {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+#lists #header #icons svg {
+  font-size: 20px;
+  color: #1da1f2;
+  margin: 5px;
+}
+#lists #header #icons p:hover {
+  background-color: rgba(29, 161, 241, 0.1);
+  cursor: pointer;
+}
+#lists #pinned {
+  width: 70%;
+  text-align: center;
+  padding: 30px 0px;
+  margin-left: 15%;
+  color: #657786;
+}
+#lists #myLists {
+  text-align: center;
+  padding: 30px 0px;
+  margin-left: 15%;
+}
+#lists #myLists p:first-of-type {
+  font-weight: 650;
+  font-size: 20px;
+}
+#lists #myLists p:nth-of-type(2) {
+  color: #657786;
+}
+#lists #myLists button {
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: #1da1f2;
+  color: white;
+  font-weight: 650;
+  border: none;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 998px) {
+  #lists > div:nth-of-type(2) {
+    width: 80vw !important;
+  }
+}

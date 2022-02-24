@@ -1,0 +1,76 @@
+#login img {
+  width: 40px;
+  height: 35px;
+}
+#login > div {
+  width: 55vw;
+  height: 50vh;
+  margin: 20px auto;
+}
+#login > div > img {
+  margin-left: 45%;
+}
+#login > div > p {
+  width: 200px;
+  margin: 10px auto;
+  font-size: 23px;
+  font-weight: 700;
+}
+#login > div #user {
+  height: 60px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #f5f8fa;
+  border-bottom: 2px solid #657786;
+}
+#login > div #user p {
+  margin: 0;
+  margin-left: 5px;
+  color: #657786;
+}
+#login > div #user input {
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+#login > div #user input:focus {
+  outline: none !important;
+}
+#login button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 25px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #1da1f2;
+}
+#login button:hover {
+  cursor: pointer;
+  background-color: rgb(26, 145, 218);
+}
+#login button:focus {
+  outline: none !important;
+}
+#login #bottomContent {
+  display: flex;
+  width: 300px;
+  margin: 16px auto;
+}
+#login #bottomContent a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+#login .spinner-border {
+  position: absolute !important;
+  margin-top: -10px !important;
+  color: white !important;
+}
+@media (max-width: 900px) {
+  #login > div {
+    width: 80vw;
+  }
+}

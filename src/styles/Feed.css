@@ -1,0 +1,287 @@
+#feed {
+  width: 55vw;
+}
+#createTweet {
+  margin-top: 10px;
+  border: 1px solid #e6ecf0;
+}
+#createTweet > div:first-of-type {
+  padding: 5px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#createTweet > div:first-of-type p {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: 750;
+}
+#createTweet > div:first-of-type svg {
+  font-size: 25px;
+}
+#createTweet #tweetingSection {
+  padding: 10px;
+  display: flex;
+}
+#createTweet #tweetingSection img {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  background: transparent;
+}
+#createTweet #tweetingSection textarea {
+  margin: 0px 10px;
+  border: none;
+  font-size: 24px;
+  width: 85%;
+  height: 100px;
+}
+#createTweet #tweetingSection textarea:focus {
+  outline: none;
+}
+#createTweet #icons {
+  padding: 10px;
+  margin-left: 12%;
+  display: flex;
+  justify-content: space-between;
+}
+#createTweet #icons svg {
+  font-size: 26px;
+  margin: 0px 10px;
+  color: #1da1f2;
+}
+#createTweet #icons svg:hover {
+  cursor: pointer;
+  color: #0087db;
+}
+#createTweet #icons button {
+  height: 40px;
+  width: 90px;
+  border: none;
+  background-color: #1da1f2;
+  border-radius: 30px;
+  color: white;
+  font-weight: 650;
+}
+#createTweet #icons button:hover {
+  background-color: #0093ee;
+}
+#createTweet #icons button:focus {
+  outline: none;
+}
+#createTweet #imagePreview img {
+  width: 80%;
+  margin-left: 10%;
+  height: 300px;
+}
+.tweet {
+  display: flex;
+  padding: 15px;
+  border: 1px #e6ecf0 solid;
+}
+.tweet > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+}
+.tweet .content {
+  margin-left: 10px;
+  width: 100%;
+}
+.tweet .content p {
+  margin: 0px;
+}
+.tweet .content .name > div {
+  display: flex;
+  justify-content: space-between;
+}
+.tweet .content .name {
+  height: 80px;
+}
+.tweet .content .name .dropdown {
+  width: 24px;
+  height: 25px;
+  border-radius: 40px;
+}
+
+.tweet .content .name .btn-primary {
+  background-color: transparent !important;
+  padding: 0px;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  border: none !important;
+}
+.tweet .content .name .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.tweet .content .name .btn-primary:hover {
+  background-color: #e6ecf0 !important;
+  cursor: pointer;
+}
+.tweet .content .name .dropdown-menu {
+  width: 250px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  transform: translate(-210px, 0px) !important;
+}
+.tweet .content .name .dropdown-item {
+  min-height: 40px !important;
+  padding-top: 7px;
+}
+.tweet .content > img {
+  height: 300px;
+  width: 90%;
+  border-radius: 20px;
+}
+.tweet .content .icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  color: #657786;
+  width: 88%;
+}
+.tweet .content .name > div svg {
+  font-size: 24px;
+  color: #657786;
+}
+.tweet .content .icons p:first-of-type:hover {
+  color: rgb(182, 55, 55);
+  cursor: pointer;
+}
+.tweet .content .icons p:nth-of-type(2):hover {
+  color: rgb(32, 204, 61);
+  cursor: pointer;
+}
+.tweet .content .icons p:nth-of-type(3):hover {
+  color: #1da1f2;
+  cursor: pointer;
+}
+/* Modals */
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+/* Edit Modal */
+#editTweet #heading {
+  text-align: center !important;
+}
+#editTweet #content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+#editTweet #content textarea {
+  width: 400px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding-left: 15px;
+}
+#editTweet #content textarea:focus {
+  outline: none;
+}
+#editTweet #imagePreview img {
+  width: 100%;
+  height: 300px;
+}
+#editTweet #buttons {
+  margin-left: 25%;
+  padding: 15px;
+}
+#editTweet #buttons button:first-of-type,
+#editTweet #buttons button:nth-of-type(2),
+#deleteTweet #buttons button:first-of-type,
+#deleteTweet #buttons button:nth-of-type(2) {
+  margin: 0px 10px;
+  width: 90px;
+  height: 40px;
+  margin-left: auto;
+  color: white;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 20px;
+}
+#editTweet #buttons button:first-of-type:focus,
+#editTweet #buttons button:nth-of-type(2):focus,
+#deleteTweet #buttons button:first-of-type:focus,
+#deleteTweet #buttons button:nth-of-type(2):focus {
+  outline: none;
+}
+#deleteTweet #heading {
+  text-align: center !important;
+}
+#deleteTweet #buttons {
+  padding: 15px;
+  margin-left: 25% !important;
+}
+.spinner-border {
+  position: absolute;
+  top: 40%;
+  color: #1da1f2 !important;
+}
+#imagePreview {
+  position: relative;
+}
+#imagePreview svg {
+  position: absolute;
+  font-size: 25px;
+  left: 11%;
+  top: 2%;
+  color: white;
+  z-index: 10;
+}
+#editTweet #imagePreview svg {
+  left: 1%;
+}
+#imagePreview svg:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 998px) {
+  #feed {
+    width: 80vw !important;
+  }
+}
+
+/*
+  .tweet .content .icons > p {
+    height: 35px;
+    overflow: hidden;
+  }
+.tweet .content .icons p:first-of-type svg {
+}
+.tweet .content .icons #likes {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 7px;
+  overflow: hidden;
+  transform: translateY(5px);
+  animation: like 0.1s;
+  animation-delay: 0.2s;
+}
+@keyframes like {
+  0% {
+    transform: translateY(-25px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+*/

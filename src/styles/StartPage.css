@@ -1,0 +1,218 @@
+#startPage {
+  position: relative;
+  max-width: 98% !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+#startPage #leftColumn img {
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  z-index: -1 !important;
+}
+#main {
+  min-height: 93vh !important;
+  display: flex;
+}
+#startPage #footer {
+  min-height: 6vh !important;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+#startPage #footer div {
+  padding-top: 5px !important;
+}
+#startPage #footer a {
+  text-decoration: none;
+  color: #657786;
+  font-size: 13px;
+  padding: 0px 8px;
+}
+#main #leftColumn {
+  padding: 0px;
+  margin: 0px;
+  width: 50%;
+  background-color: #71c9f8;
+  position: relative !important;
+  z-index: 0 !important;
+}
+#main #leftColumn #content {
+  width: 400px;
+  height: 160px;
+  margin: auto;
+  margin-top: 25%;
+  z-index: 10 !important;
+}
+#main #leftColumn #content > div {
+  display: flex;
+}
+#main #leftColumn #content > div p {
+  font-size: 19px;
+  padding: 0px 5px;
+  font-weight: 700;
+  color: #ffffff;
+}
+#main #leftColumn #content .icons {
+  font-size: 30px;
+  color: #ffffff;
+}
+#main #rightColumn img {
+  height: 35px;
+  width: 40px;
+}
+#main #rightColumn {
+  padding: 0px;
+  margin: 0px;
+  width: 50%;
+}
+#main #rightColumn > div {
+  box-sizing: border-box;
+  padding: 15px;
+}
+#main #rightColumn #content {
+  width: 450px;
+  margin: auto;
+  margin-top: 15%;
+}
+#main #rightColumn #content > p {
+  font-size: 36px;
+  font-weight: 700;
+}
+#main #rightColumn #content > div {
+  margin-top: 60px !important;
+}
+#main #rightColumn #content > div p {
+  font-size: 18px;
+  font-weight: 700;
+}
+#main #rightColumn #content > div #buttons {
+  display: flex;
+  flex-direction: column;
+}
+#main #rightColumn #content > div #buttons button {
+  height: 45px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#main #rightColumn #content > div #buttons button:focus {
+  outline: none !important;
+}
+#main #rightColumn #content > div #buttons button:first-of-type {
+  color: white;
+  background-color: #1da1f2;
+}
+#main #rightColumn #content > div #buttons button:nth-of-type(2) {
+  color: #53a5e4;
+  background-color: white;
+  border: 2px solid #1da1f2;
+}
+#main #rightColumn #content > div #buttons button:nth-of-type(2):hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  cursor: pointer;
+}
+#main #rightColumn #content > div #buttons button:first-of-type:hover {
+  background-color: rgb(26, 145, 218);
+  cursor: pointer;
+}
+#registerModal #logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#registerModal #logo img {
+  width: 35px;
+  height: 30px;
+}
+#registerModal #logo button {
+  width: 100px;
+  height: 40px;
+  background-color: #1da1f2;
+  color: white;
+  font-weight: 650;
+  border: none;
+  border-radius: 20px;
+}
+#registerModal #logo button:focus {
+  outline: none !important;
+}
+#registerModal #info {
+  padding: 10px 20px;
+}
+#registerModal #info p {
+  margin: 0px;
+}
+#registerModal #info > p:first-of-type {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 650;
+}
+#registerModal #info .inputDivs {
+  height: 60px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #f5f8fa;
+  border-bottom: 2px solid #657786;
+}
+#registerModal #info .inputDivs p {
+  margin: 0;
+  margin-left: 5px;
+  color: #657786;
+}
+#registerModal #info .inputDivs input {
+  font-size: 18px;
+  border: none;
+  background-color: #f5f8fa !important;
+  width: 100%;
+  padding-left: 5px;
+}
+#registerModal #info .inputDivs input:active {
+  outline: none !important;
+  background-color: #f5f8fa !important;
+}
+#registerModal #info .inputDivs input:focus {
+  outline: none !important;
+  background-color: #f5f8fa !important;
+}
+#registerModal #info > p:nth-of-type(2) {
+  font-size: 16px;
+  font-weight: 650 !important;
+  margin-top: 20px;
+}
+#registerModal #info > p:nth-of-type(3) {
+  color: #657786;
+}
+#registerModal #info > input {
+  width: 100%;
+  height: 40px;
+}
+@media (max-width: 992px) {
+  #main {
+    min-width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #main #leftColumn {
+    width: 100vw;
+    height: 50vh;
+  }
+  #main #leftColumn #content {
+    margin-top: 5%;
+  }
+  #main #leftColumn img {
+    display: none !important;
+  }
+  #main #rightColumn {
+    width: 100vw;
+  }
+  #main #rightColumn #content {
+    margin-top: 5%;
+  }
+  #main #leftColumn img {
+    right: 0;
+    width: 50vh;
+    height: 50vh;
+  }
+}

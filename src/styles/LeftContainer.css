@@ -1,0 +1,159 @@
+#leftBar {
+  width: 60px;
+}
+#leftBar > #logo {
+  height: 60px;
+  width: 60px;
+  padding: 15px 17px;
+  border-radius: 40px;
+}
+#leftBar a {
+  color: black;
+}
+#logo > img {
+  width: 30px;
+  height: 25px;
+}
+#leftBar > div {
+  position: relative;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  padding: 14px 14px;
+}
+#leftBar > div:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  cursor: pointer;
+}
+#leftBar .active a {
+  color: #1da1f2;
+}
+#leftBar div:nth-of-type(10) {
+  background-color: #1da1f2;
+  color: white;
+}
+#leftBar div:nth-of-type(10):hover {
+  background-color: #0093ee;
+}
+#leftBar > div svg {
+  font-size: 32px;
+  margin-left: auto;
+}
+#leftBar > #profile {
+  margin: 0px;
+  padding: 0px;
+}
+#leftBar > #profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.ReactModal__Content {
+  padding: 0px !important;
+  border-radius: 10px !important;
+  width: 500px !important;
+}
+#createTweetModal #heading {
+  font-size: 24px;
+  padding: 5px 10px;
+  color: #1da1f2;
+}
+#createTweetModal #heading svg:hover {
+  cursor: pointer;
+}
+#createTweetModal #content {
+  display: flex;
+  padding: 0px 10px;
+}
+#createTweetModal #content img {
+  height: 45px;
+  width: 45px;
+  background-color: black;
+  border-radius: 40px;
+}
+#createTweetModal #content textarea {
+  width: 450px;
+  height: 120px;
+  margin-left: 10px;
+  border: none;
+  font-size: 24px;
+}
+#createTweetModal #content textarea:focus {
+  outline: none;
+  border: none;
+}
+#createTweetModal #imagePreview img {
+  width: 80%;
+  margin: 0px 10%;
+  height: 300px;
+}
+#createTweetModal #footer {
+  padding: 10px;
+  display: flex;
+  margin-left: 20%;
+  justify-content: space-between;
+}
+#createTweetModal #footer button {
+  width: 80px;
+  height: 40px;
+  background-color: #1da1f2;
+  color: white;
+  font-weight: 650;
+  border: none;
+  border-radius: 20px;
+}
+#createTweetModal #footer button:hover {
+  cursor: pointer;
+}
+#createTweetModal #footer svg {
+  font-size: 24px;
+  color: #1da1f2;
+  margin-right: 15px;
+}
+#createTweetModal #footer svg:hover {
+  cursor: pointer;
+}
+
+#logoutModal {
+  padding: 10px;
+}
+#logoutModal p {
+  margin: 0px;
+}
+#logoutModal #heading {
+  display: flex;
+}
+#logoutModal #heading img {
+  height: 45px;
+  width: 45px;
+  border-radius: 40px;
+}
+#logoutModal #heading div {
+  margin-left: 10px;
+}
+#logoutModal #heading div p:first-of-type {
+  font-weight: 650;
+  font-size: 20px;
+}
+#logoutModal #heading div p:nth-of-type(2) {
+  color: #657786;
+}
+#logoutModal > p {
+  padding: 6px 10px;
+}
+#logoutModal > p:hover {
+  cursor: pointer;
+}
+#notifications .badge-pill {
+  border-radius: 30px !important;
+  position: absolute;
+  right: 10px;
+  background-color: #1da1f2;
+}
+#alan .badge-pill {
+  border-radius: 30px !important;
+  position: absolute;
+  font-size: 9px !important;
+  right: 0px !important;
+}

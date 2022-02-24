@@ -1,0 +1,38 @@
+#alanCommands {
+  height: 100vh;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid #e6ecf0;
+}
+#alanCommands .commands {
+  display: flex;
+  justify-content: space-between;
+}
+#alanCommands .commands svg {
+  font-size: 20px;
+  margin-top: 15px;
+}
+#alanCommands .commands p {
+  width: 270px;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #e6ecf0;
+  height: 50px;
+  border-radius: 30px;
+}
+#alanCommands .commandsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+#alanCommands .commandsHeader p {
+  width: 270px;
+  color: #1da1f2;
+  text-align: center;
+}
+#alanCommands .header p {
+  font-weight: 600;
+  font-size: 20px;
+}
